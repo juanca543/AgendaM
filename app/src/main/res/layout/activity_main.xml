@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/bondrians1"
+            android:text="Inicio"
+            android:textSize="60sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_reservar_sita"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:backgroundTint="@color/btn_color"
+            android:text="Registrar Cita"
+            android:drawableLeft="@drawable/ic__post"
+            android:background="@drawable/rounded_button"/>
+
+        <Button
+            android:id="@+id/btn_ver_citas"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/btn_color"
+            android:drawableLeft="@drawable/baseline_watch_later_24"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Mis Citas" />
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
